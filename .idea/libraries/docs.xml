@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="docs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/IO/lib/commons-io-2.5-bin.jar!/commons-io-2.5/docs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
