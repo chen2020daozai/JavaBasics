@@ -45,7 +45,8 @@ public class TestScheduledThreadPool {
 			
 			System.out.println(result.get());
 		}
-		
+
+		//关闭
 		pool.shutdown();
 	}
 	

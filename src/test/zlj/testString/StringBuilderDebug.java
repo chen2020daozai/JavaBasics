@@ -10,6 +10,8 @@ package zlj.testString;
 public class StringBuilderDebug {
 
     public static void main(String[] args) {
+        System.out.println((int)(Math.random()*10));
+
         String string = null;
 
         StringBuilder builder1=new StringBuilder();

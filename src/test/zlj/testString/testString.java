@@ -27,7 +27,7 @@ public class testString {
         System.out.println(s);
 
         //string3 string4存储地址
-        String str3 = new String("123");
+        String str3 = "123";
         String str4 = new String("123");
 
         //string1 string2声明在字符串常量池中
@@ -50,15 +50,17 @@ public class testString {
          */
         final String string11 = "123";
         String string9 = string11+"456";
-        System.out.println(string3==string4);
-        System.out.println(string3==string5);
-        System.out.println(string3==string6);
-        System.out.println(string3==string7);
-        System.out.println(string5==string6);
-        System.out.println(string3==string9);
+        System.out.println(string3==string4);//t
+        System.out.println(string3==string5);//f
+        System.out.println(string3==string6);//f
+        System.out.println(string3==string7);//f
+        System.out.println(string5==string6);//ff
+        System.out.println(string3==string9);//t
+
+        System.out.println(string3==string10);//f
 
         //把返回值在常量池中
         String string8 = string5.intern();
-        System.out.println(string8==string3);
+        System.out.println(string8==string3);//t
     }
 }
