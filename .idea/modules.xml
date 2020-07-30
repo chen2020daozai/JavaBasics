@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/a-IO/a-IO.iml" filepath="$PROJECT_DIR$/a-IO/a-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/b-net/b-net.iml" filepath="$PROJECT_DIR$/b-net/b-net.iml" />

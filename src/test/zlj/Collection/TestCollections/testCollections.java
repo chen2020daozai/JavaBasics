@@ -1,11 +1,9 @@
 package zlj.Collection.TestCollections;
 
 import org.junit.Test;
+import zlj.Person;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Classname MyException
@@ -59,4 +57,22 @@ public class testCollections {
         System.out.println(list2);
     }
 
+    @Test
+    public void test0(){
+//        Set set = new TreeSet();
+
+        List<Person> set=new LinkedList();
+        set.add(new Person("zlj", 20));
+        set.add(new Person("zsf", 31));
+        set.add(new Person("zjl", 41));
+        set.add(new Person("lb", 17));
+        set.add(new Person("zf", 19));
+        set.add(new Person("zwj", 19));
+        for (Person p :
+                set) {
+            System.out.println(p);
+        }
+
+        List list=new ArrayList();
+    }
 }

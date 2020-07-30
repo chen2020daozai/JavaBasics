@@ -4,6 +4,7 @@ import org.junit.Test;
 import zlj.Person;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -45,6 +46,18 @@ public class testTreeSet {
                 set) {
             System.out.println(o);
         }
+        System.out.println("foreach的层就是迭代器");
+        for (Iterator it=set.iterator();it.hasNext();){
+            System.out.println(it.next());
+        }
+        System.out.println("反序");
+
+        Set reverseSet= ((TreeSet) set).descendingSet();
+        for (Iterator iterator=reverseSet.iterator();iterator.hasNext();){
+            System.out.println(iterator.next());
+        }
+        System.out.println(set.size());
+
     }
 
 
