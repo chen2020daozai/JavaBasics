@@ -19,6 +19,5 @@
     </orderEntry>
     <orderEntry type="module" module-name="JavaBasics" />
     <orderEntry type="library" name="docs" level="project" />
-    <orderEntry type="library" name="commons-io-2.5" level="project" />
   </component>
 </module>
