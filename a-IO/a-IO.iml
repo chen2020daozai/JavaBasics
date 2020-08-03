@@ -18,6 +18,5 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="JavaBasics" />
-    <orderEntry type="library" name="docs" level="project" />
   </component>
 </module>
