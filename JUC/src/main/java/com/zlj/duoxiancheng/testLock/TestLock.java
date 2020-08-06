@@ -1,4 +1,4 @@
-package zlj.duoxiancheng.testLock;
+package com.zlj.duoxiancheng.testLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

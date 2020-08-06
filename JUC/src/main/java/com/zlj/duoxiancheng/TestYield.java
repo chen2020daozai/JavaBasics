@@ -1,6 +1,4 @@
-package zlj.duoxiancheng;
-
-import java.util.concurrent.CopyOnWriteArrayList;
+package com.zlj.duoxiancheng;
 
 /**
  * @Classname TestYield

@@ -1,4 +1,4 @@
-package zlj.staticProxy;
+package com.zlj.duoxiancheng.staticProxy;
 
 /**
  * 静态代理

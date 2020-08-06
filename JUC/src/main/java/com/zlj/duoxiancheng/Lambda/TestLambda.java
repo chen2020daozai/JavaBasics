@@ -1,4 +1,4 @@
-package zlj.Lambda;
+package com.zlj.duoxiancheng.Lambda;
 
 /**
  * @Classname TestLanbda

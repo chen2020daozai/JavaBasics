@@ -1,4 +1,4 @@
-package com.zlj.ProductorConsumer;
+package com.zlj.duoxiancheng.ProductorConsumer;
 
 /**
  * @Classname ProductorConsumerTest
